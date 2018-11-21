@@ -1,0 +1,9 @@
+liczba=input("Podaj liczbę = ")
+if (float(liczba) % 3 == 0 or float(liczba) % 5 == 0 or float(liczba) % 7 == 0 ):
+    print("liczba podzielna przez 3 lub 5 lub 7")
+else:
+    print("liczba niepodzielna przez 3 lub 5 lub 7")
+if (float(liczba) % 3 == 0 and float(liczba) % 5 == 0 and float(liczba) % 7 == 0 ):
+    print("liczba podzielna przez 3, 5 i 7")
+else:
+    print("liczba niepodzielna przez 3, 5 i 7")

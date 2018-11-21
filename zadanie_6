@@ -1,0 +1,4 @@
+bin=input("binary = ")
+print("decimal = ",int(bin, 2))
+
+
