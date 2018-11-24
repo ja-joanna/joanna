@@ -1,6 +1,0 @@
-def square_shape(leng,width):
-        print ("+","- "*leng,"+")
-        for _ in range(width-2):
-            print ("| ","  "*leng,"|")
-        print ("+","- "*leng,"+")
-square_shape(8,5)
