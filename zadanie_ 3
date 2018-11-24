@@ -1,6 +1,0 @@
-import math
-import unicodedata
-print("P = ",unicodedata.lookup("GREEK CAPITAL LETTER PI"),"r^2")
-r = input("r = ")
-P = math.pi*(float(r)**2)
-print ("P = ",str(P)[0:5])
