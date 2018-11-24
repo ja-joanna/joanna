@@ -1,5 +1,0 @@
-liczba=input("Podaj liczbę = ")
-if (float(liczba) % 2 == 0):
-    print("liczba parzysta")
-else:
-    print("liczba nieparzysta")
