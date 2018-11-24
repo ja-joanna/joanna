@@ -1,5 +1,0 @@
-bok_a = input("Podaj szerokość = ")
-bok_b = input("Podaj wysokość = ")
-print ("+","-"*int(bok_a),"+")
-print ("|"," "*int(bok_a),"|")
-print ("+","-"*int(bok_a),"+")
