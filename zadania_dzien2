@@ -1,0 +1,77 @@
+#zadanie 1
+temp1 = input("stopnie Celcjusza = ")
+print ("t[F] = (t[C] x 1.8) + 32")
+tempC = float(temp1)*1.8
+print ("t[C] x 1.8 = ", str(tempC)[0:5])
+tempF = (float(tempC)+32)
+print ("(t[C] x 1.8) + 32 = ", str(tempF)[0:5])
+print (str(temp1),"[C] = ",str(tempF)[0:5],"[F]")
+
+#zadanie 2
+temp2 = input("stopnie Fahrenheita = ")
+print ("t[F] = (t[C] - 32)/1.8")
+tempF = float(temp2)-32
+print ("t[F] - 32 =", str(tempF)[0:5])
+tempC = (float(tempF)/1.8)
+print ("(t[F] - 32)/1.8 = ", str(tempC)[0:5])
+print (str(temp2),"[F] = ", str(tempC)[0:5],"[C]")
+
+#zadanie 3
+import math
+import unicodedata
+print("P = ",unicodedata.lookup("GREEK CAPITAL LETTER PI"),"r^2")
+r = input("r = ")
+P = math.pi*(float(r)**2)
+print ("P = ",str(P)[0:5])
+
+#zadanie 4
+liczba = input("Podaj liczbę = ")
+print ("pierwsza cyfra = ",str(liczba)[0])
+print ("ostatnia cyfra = ",str(liczba)[-1:])
+
+#zadanie 5
+bok_a = int(input("Podaj wysokość: "))
+bok_b = int(input("Podaj szerokość: "))
+
+print ("+" + "-"*int(bok_a) + "+")
+print (("|" + " "*int(bok_a) + "|\n")*bok_b)
+print ("+" + "-"*int(bok_a) + "+")
+
+#zadanie 6
+bin=input("binary = ")
+print("decimal = ",int(bin, 2))
+
+#zadanie 7
+liczba=input("Podaj liczbę = ")
+if (float(liczba) % 2 == 0):
+    print("liczba parzysta")
+else:
+    print("liczba nieparzysta")
+
+#zadanie 8
+liczba=input("Podaj liczbę = ")
+if (float(liczba) % 3 == 0 or float(liczba) % 5 == 0 or float(liczba) % 7 == 0 ):
+    print("liczba podzielna przez 3 lub 5 lub 7")
+else:
+    print("liczba niepodzielna przez 3 lub 5 lub 7")
+if (float(liczba) % 3 == 0 and float(liczba) % 5 == 0 and float(liczba) % 7 == 0 ):
+    print("liczba podzielna przez 3, 5 i 7")
+else:
+    print("liczba niepodzielna przez 3, 5 i 7")
+
+#zadanie 9
+if (float(liczba) % 3 == 0):
+    print("liczba podzielna przez 3")
+elif (float(liczba) % 5 == 0):
+    print ("liczba podzielna przez 5")
+else:
+    print("liczba niepodzielna przez 3 i 5")
+
+zadanie 10
+data=input("Podaj rok: ")
+if(int(data) % 4 == 0 and int(data) % 100 != 0 or int(data) % 400 == 0):
+    print("rok przestępny")
+else:
+    print("rok zwykły")
+
+
